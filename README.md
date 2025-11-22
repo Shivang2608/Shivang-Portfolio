@@ -4,7 +4,7 @@ A sleek, responsive, and fully interactive portfolio website built using React.j
 
 🚀 Live Demo
 
-🔗 View Portfolio Live
+🔗 https://shivang-portfolio-gray.vercel.app/
 
 🛠️ Tech Stack
 
@@ -28,7 +28,7 @@ Professional sections: About, Skills, Projects, Education, Contact 👨‍💻
 
 🧑‍💻 How to Use
 1. Clone the Repo
-git clone https://github.com/Shivang2608/Portfolio.git
+git clone https://github.com/Shivang2608/Shivang-Portfolio.git
 cd Portfolio
 
 2. Install Dependencies
