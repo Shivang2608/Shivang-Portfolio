@@ -122,6 +122,7 @@ export const SkillsInfo = [
       image: beatcancerLogo,
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Aceternity UI", "Context API", "Privy", "AI", "Healthcare Tech"],
       github: "https://github.com/Shivang2608/Beat-Cancer-Project-",
+       webapp: "https://beat-cancer-project.vercel.app/",
     },
     {
       id: 2,
@@ -131,7 +132,7 @@ export const SkillsInfo = [
       image: crimereportLogo,
       tags: ["Next.js", "React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AI", "Data Security"],
       github: "https://github.com/Shivang2608/Crime-report-app",
-     
+      webapp: "http://crime-report-app-olive.vercel.app",
     },
     {
       id: 3,
@@ -143,7 +144,4 @@ export const SkillsInfo = [
       github: "https://github.com/Shivang2608/APNATEAM11",
       webapp:"https://apnateam11.vercel.app/",
     },
-  
-   
-   
   ];  
