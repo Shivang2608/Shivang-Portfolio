@@ -1,4 +1,4 @@
-# 🌐 Shivang Sagar | Frontend Developer Portfolio
+# 🌐 Shivang Sagar | Developer Portfolio
 
 
 A sleek, responsive, and performance-optimized portfolio website engineered with **React.js** and **Tailwind CSS**. Designed to showcase technical projects with a focus on clean UX, smooth animations, and mobile responsiveness.
