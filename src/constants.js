@@ -118,7 +118,7 @@ export const SkillsInfo = [
       id: 1,
       title: "Beat Cancer",
       description:
-      "A personalized AI-powered cancer care platform designed to assist patients with tailored recommendations and progress tracking. Built using Next.js and advanced GenAI integration, it offers an interactive assistant, secure authentication, and a modern, responsive interface to support users throughout their treatment journey.",
+      "Engineered a secure, AI-driven healthcare platform using Next.js and TypeScript to ensure type safety and high performance. Integrated Generative AI models to process patient data and generate personalized recovery plans in real-time. Implemented Privy for seamless, secure user authentication and utilized Context API for complex global state management.",
       image: beatcancerLogo,
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Aceternity UI", "Context API", "Privy", "AI", "Healthcare Tech"],
       github: "https://github.com/Shivang2608/Beat-Cancer-Project-",
@@ -128,7 +128,7 @@ export const SkillsInfo = [
       id: 2,
       title: "Anonymous Crime Report App",
       description:
-      "An anonymous crime reporting web application designed to ensure security, privacy, and fast incident submission. Built using modern web technologies, it enables users to report crimes without revealing their identity while leveraging AI to analyze reports and maintain data integrity for improved community safety",
+      "Built a secure, anonymous reporting platform prioritizing user privacy through advanced data encryption. Developed a streamlined submission flow using React to ensure zero-latency reporting. Integrated AI-driven analysis algorithms to categorize incidents automatically and filter spam, ensuring data integrity. Architected a scalable backend connection to handle high-volume report submissions securely.",
       image: crimereportLogo,
       tags: ["Next.js", "React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AI", "Data Security"],
       github: "https://github.com/Shivang2608/Crime-report-app",
@@ -138,7 +138,7 @@ export const SkillsInfo = [
       id: 3,
       title: "Apna Team 11 Fantasy Sports App",
       description:
-          "A full-featured fantasy sports platform that allows users to pick players, create teams, select captains, and track upcoming matches. Built with React, Tailwind CSS, and Context API, the app focuses on a smooth, interactive experience with persistent data storage, dynamic match generation, and a responsive, modern UI for both desktop and mobile users.",
+      "Developed a logic-heavy fantasy sports engine using React and Context API to manage complex global state, including credit budget constraints and strict team validation rules. Implemented dynamic algorithms to simulate match schedules and randomize player data. Engineered a robust selection system that enforces gameplay logic in real-time and utilized local persistence to maintain user sessions across reloads.",
       image: apnateamLogo,
       tags: ["React.js", "Tailwind CSS", "Context API", "Fantasy Sports", "Frontend Development", "Responsive Design"],
       github: "https://github.com/Shivang2608/APNATEAM11",

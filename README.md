@@ -1,53 +1,51 @@
-🌐 Shivang Sagar Portfolio Website
+# 🌐 Shivang Sagar | Frontend Developer Portfolio
 
-A sleek, responsive, and fully interactive portfolio website built using React.js and Tailwind CSS. This project showcases my personal skills, projects, and experience with a modern and professional design.
+![Portfolio Preview](portfolio-screenshot.png)
+A sleek, responsive, and performance-optimized portfolio website engineered with **React.js** and **Tailwind CSS**. Designed to showcase technical projects with a focus on clean UX, smooth animations, and mobile responsiveness.
 
-🚀 Live Demo
+🚀 **Live Demo:** [https://shivang-portfolio-gray.vercel.app/](https://shivang-portfolio-gray.vercel.app/)
 
-🔗 https://shivang-portfolio-gray.vercel.app/
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-⚛️ React.js
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-🎨 Tailwind CSS
+## 📁 Key Features
 
-💾 Vercel (for deployment)
+* **⚡ High Performance:** Powered by Vite for instant load times.
+* **📱 Fully Responsive:** Mobile-first architecture ensures perfect rendering on all devices.
+* **✨ Interactive UI:** Implemented smooth scrolling and subtle Framer Motion animations.
+* **🧩 Modular Codebase:** Clean component structure for scalability.
 
-📁 Features
+---
 
-Fully responsive design for all devices 📱💻
+## 🧑‍💻 How to Run Locally
 
-Smooth scrolling and subtle animation effects ✨
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/Shivang2608/Shivang-Portfolio.git](https://github.com/Shivang2608/Shivang-Portfolio.git)
+   cd Portfolio
+Install Dependencies
 
-Modular and reusable React components 🧩
+Bash
 
-Easy customization with Tailwind utility classes 🎯
-
-Professional sections: About, Skills, Projects, Education, Contact 👨‍💻
-
-🧑‍💻 How to Use
-1. Clone the Repo
-git clone https://github.com/Shivang2608/Shivang-Portfolio.git
-cd Portfolio
-
-2. Install Dependencies
 npm install
+Start the Development Server
 
-3. Run the App Locally
-npm start
+Bash
 
-4. Build for Production
+npm run dev
+# Note: Uses Vite, so runs on localhost:5173 by default
+Build for Production
+
+Bash
+
 npm run build
-
-📹 Demo / Preview
-
-Check out a quick demo of my portfolio:
-
-📺 Portfolio Demo
-
 🌟 Credits
+Designed and Engineered by Shivang Sagar.
 
-This project was designed and developed entirely by Shivang Sagar ❤️.
-
-Feel free to ⭐ this repository and share if you find it helpful!
+If you find this repo helpful, please give it a ⭐!
