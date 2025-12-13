@@ -33,7 +33,7 @@ import svmLogo from './assets/education_logo/SVM_logo.png';
 import crimereportLogo from './assets/work_logo/Crime_Report_APP.png';
 import beatcancerLogo from './assets/work_logo/Beat_Cancer.png';
 import apnateamLogo from './assets/work_logo/APNA_TEAM_11.png';
-
+import tcslogo from "./assets/work_logo/Tesco_Creative_Synthesizer.png"
 
 export const SkillsInfo = [
   {
@@ -133,6 +133,16 @@ export const SkillsInfo = [
       tags: ["Next.js", "React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AI", "Data Security"],
       github: "https://github.com/Shivang2608/Crime-report-app",
       webapp: "http://crime-report-app-olive.vercel.app",
+    },
+     {
+      id: 1,
+      title: "Tesco Creative Synthesizer",
+      description:
+      "A full-stack AI Creative Synthesizer designed to generate brand-safe, photorealistic marketing images on demand. Built with Next.js 14 and FastAPI, it integrates Google Gemini 2.5 Flash for compliance auditing, Stable Diffusion XL for image generation, and U2Net for background segmentation, deployed across Vercel and Hugging Face.",
+      image: tcslogo,
+      tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "FastAPI", "Gemini 2.5 Flash", "Stable Diffusion XL", "Computer Vision", "Microservices", "GenAI", "Vercel"],
+      github: "https://github.com/Shivang2608/Tesco-Creative-Synthesizer",
+      webapp: "https://tesco-creative-synthesizer.vercel.app/",
     },
     {
       id: 3,
