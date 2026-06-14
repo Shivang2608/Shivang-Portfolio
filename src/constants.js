@@ -91,7 +91,7 @@ export const experiences = [
     img: celebrareLogo,
     company: "Celebrare",
     role: "Frontend Developer Intern",
-    date: "Jan 2025 - Present",
+    date: "Feb 2026 - Present",
     desc: "Contributed to production-scale React.js and Electron.js applications used for digital album creation and studio workflow management. Implemented and enhanced multiple customer-facing features including AI-powered image enhancement, camera-to-cloud integrations, standalone flipbook experiences, media galleries, music systems, and workflow optimization tools.",
     skills: [
       "React.js",
