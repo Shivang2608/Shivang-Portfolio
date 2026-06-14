@@ -24,6 +24,8 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import celebrareLogo from "./assets/experience/Celebrare_logo.png";
+import infosysLogo from "./assets/experience/Infosys_logo.png";
 
 // Education Section Logo's
 import aktuLogo from './assets/education_logo/AKTU_logo.png';
@@ -83,6 +85,33 @@ export const SkillsInfo = [
     ],
   },
 ];  
+export const experiences = [
+  {
+    id: 1,
+    img: celebrareLogo,
+    company: "Celebrare",
+    role: "Frontend Developer Intern",
+    date: "Jan 2025 - Present",
+    desc: "Contributed to production-scale React.js and Electron.js applications used for digital album creation and studio workflow management. Implemented and enhanced multiple customer-facing features including AI-powered image enhancement, camera-to-cloud integrations, standalone flipbook experiences, media galleries, music systems, and workflow optimization tools.",
+    skills: [
+      "React.js",
+      "JavaScript",
+      "Electron.js",
+      "Tailwind CSS",
+      "Firebase",
+      "Git",
+    ],
+  },
+  {
+    id: 2,
+    img: infosysLogo,
+    company: "Infosys Springboard",
+    role: "Virtual Internship Trainee",
+    date: "Feb 2026 - Apr 2026",
+    desc: "Completed Virtual Internship 6.0 and developed an Intelligent Quiz Management System with Auto-Generated Questions while strengthening problem-solving and software development skills.",
+    skills: ["JavaScript", "React", "Problem Solving", "AI Concepts"],
+  },
+];
   export const education = [
     {
       id: 0,
@@ -135,7 +164,7 @@ export const SkillsInfo = [
       webapp: "http://crime-report-app-olive.vercel.app",
     },
      {
-      id: 1,
+      id: 3,
       title: "Tesco Creative Synthesizer",
       description:
       "A full-stack AI Creative Synthesizer designed to generate brand-safe, photorealistic marketing images on demand. Built with Next.js 14 and FastAPI, it integrates Google Gemini 2.5 Flash for compliance auditing, Stable Diffusion XL for image generation, and U2Net for background segmentation, deployed across Vercel and Hugging Face.",

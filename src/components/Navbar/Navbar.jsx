@@ -17,6 +17,38 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+  const handleActiveSection = () => {
+    const sections = [
+      "about",
+      "experience",
+      "work",
+      "skills",
+      "education",
+      "contact",
+    ];
+
+    const scrollPosition = window.scrollY + 150;
+
+    sections.forEach((section) => {
+      const element = document.getElementById(section);
+
+      if (
+        element &&
+        scrollPosition >= element.offsetTop &&
+        scrollPosition < element.offsetTop + element.offsetHeight
+      ) {
+        setActiveSection(section);
+      }
+    });
+  };
+
+  window.addEventListener("scroll", handleActiveSection);
+
+  return () =>
+    window.removeEventListener("scroll", handleActiveSection);
+}, []);
+
   // Smooth scroll function
   const handleMenuItemClick = (sectionId) => {
     setActiveSection(sectionId);
@@ -31,6 +63,7 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
+      { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
      { id: "contact", label: "Contact" },
